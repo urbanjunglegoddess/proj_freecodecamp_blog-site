@@ -490,6 +490,23 @@ section-title::before{
 }
 
 /* Older posts */
+.older-post-grid-wrapper{  
+    gap:var(--gap)
+}
+.older-posts-article-image-wrapper,
+.older-posts .article{
+    min-width: var(--item-min-height-sm);
+}
+.older-posts .article{
+    background-color: var(--secondary-background-color);
+}
+.older-posts-article-image-wrapper{
+    position:relative; 
+}
+
+.older-posts .article:hover{
+    background-color: var(--hover-dark-color);
+}
 
 /* Popular tags */
 
