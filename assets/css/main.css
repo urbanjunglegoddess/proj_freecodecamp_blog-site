@@ -27,7 +27,47 @@
 /* Base styles */
 
 /* Theme color change */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-sm);
+    color: var(--light-color-alt);
+    background-color: var(--primary-background-color);
+    letter-spacing: 1px;
+    transition: background-color .25s, color .25s;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+max-width: 100%;
+display: block;
+}
+ul {
+    list-style: none;
+}
+input,
+button {
+    font: inherit;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
 
+i{
+    font-style: var(--font-size-md);
+}
 /* Reusable classes */
 
 /* Header */
