@@ -435,11 +435,15 @@ padding-block: 5rem;
     color: var(--light-color);
     border-radius: 50%;
 }
-.trending-new-data .article-data{
+.trending-news-data .article-data{
     margin-bottom: .5rem;
 }
-.trending-new-data .article-title{
+
+.trending-news-data .article-title{
     font-size: var(--font-size-xsm);
+}
+.trending-news-box:hover .article-title{
+    color:var(--light-color-alt)
 }
 /* Quick read */
 
