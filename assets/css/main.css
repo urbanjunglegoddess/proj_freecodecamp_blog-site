@@ -537,6 +537,29 @@ section-title::before{
 }
 
 /* Popular tags */
+.popular-tags-container{
+    gap: var(--gap);
+}
+
+popular-tags-containter .article{
+    min-height:var(--item-min-height-sm);
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    background-color: var(--secondary-background-color);
+    padding: var(--padding);
+    border: 1px solid var(--transparent-light-color);
+}
+.tag-name{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:var(--transparent-dark-color);
+    padding:1rem 2rem;
+    z-index:10;
+}
 
 /* Newsletter */
 
