@@ -173,6 +173,48 @@ header{
     display: block;
 }
 /* Search */
+.search-form-container{
+    width:100%;
+    max-width:100%; 
+    background-color: var(--primary-background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    opacity: 0;
+    transform: scale(0) ;
+    transition: opacity .5s;
+}
+.form-container-inner{
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    gap:var(--gap);
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form-input,
+.form-btn{
+    display: inline-block;
+    padding: 1.25rem 2rem;
+    font-size: 1.6rem;
+}
+.form-input{
+    border: 2px solid var(--secondary-background-color);
+    color: var(--light-color);
+}
+.form-input::placeholder{
+    color: var(--light-color-alt);
+}
+.form-btn{
+    background-color: var(--primary-background-color);
+    border: 2px solid var(--secondary-background-color);
+    color: var(--light-color);
+}
 
 /* Form JavaScript styles */
 
