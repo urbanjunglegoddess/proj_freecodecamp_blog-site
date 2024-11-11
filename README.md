@@ -3,6 +3,11 @@
 ## Description
 A modern and responsive blog site designed to deliver news articles across various categories such as Technology, Food, Health, Travel, and more.
 
+<video width="600" controls>
+  <source src="./assets/video/ujg-newflash-project-demo-video.mp4.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Features
 - Responsive Design: The site is fully responsive, ensuring a seamless experience across all devices.
 - Dynamic Navigation: Includes a scroll-activated navigation bar and a mobile-friendly menu.
