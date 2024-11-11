@@ -19,11 +19,11 @@ A modern and responsive blog site designed to deliver news articles across vario
 - Footer Links: Provides quick access to various categories, useful links, and company information.
 
 ## Technologies Used
-HTML5: For structuring the content.
-CSS3: For styling, including custom properties and media queries for responsiveness.
-JavaScript: For interactivity and dynamic content updates.
-Swiper.js: For creating responsive sliders.
-Remix Icons: For adding scalable vector icons.
+- HTML5: For structuring the content.
+- CSS3: For styling, including custom properties and media queries for responsiveness.
+- JavaScript: For interactivity and dynamic content updates.
+- Swiper.js: For creating responsive sliders.
+- Remix Icons: For adding scalable vector icons.
 
 
 ## Getting Started
