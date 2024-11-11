@@ -1,7 +1,7 @@
 # NewsFlash Blog Site Project
 
 ## Description
-A modern and responsive blog site designed to deliver news articles across various categories such as Technology, Food, Health, Travel, and more.
+NewsFlash is a modern and responsive blog site designed to deliver news articles across various categories such as Technology, Food, Health, Travel, and more. The project utilizes HTML, CSS, and JavaScript to create a dynamic and engaging user experience.
 
 <video width="600" controls>
   <source src="./assets/video/ujg-newflash-project-demo-video.mp4.mov" type="video/mp4">
