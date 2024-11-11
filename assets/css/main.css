@@ -482,7 +482,12 @@ section-title::before{
     font-size: 1.6rem;
     color: var(--light-color);
 }
-
+.swiper-pagination{
+    bottom: .5rem !important;
+}
+.swipper-pagination-bullet{
+    background-color: var(--light-color-alt);
+}
 
 /* Older posts */
 
