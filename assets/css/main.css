@@ -91,7 +91,12 @@ body.light-theme{
 .screen-sm-hidden{
     display: none;
 }
-
+.d-grid{
+ display: grid;
+}
+.section{
+padding-block: 5rem;
+}
 /* Header */
 header{
     background-color: var(--secondary-background-color);
